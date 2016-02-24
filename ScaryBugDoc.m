@@ -19,6 +19,7 @@
         self.fullImage=fullImage;
     }
     return self;
+    
 }
 
 @end
