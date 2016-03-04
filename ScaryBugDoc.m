@@ -20,6 +20,7 @@
         self.data = [[ScaryBugData alloc] initWithTitle:title rating:rating];
         self.thumbImage=thumbImage;
         self.fullImage=fullImage;
+      NSLog(@"asdfjhkasdfjhaksdjfh");
     }
     return self;
     
