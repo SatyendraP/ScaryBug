@@ -22,7 +22,7 @@
     // Override point for customization after application launch.
     // Added by Ashok
     
-    
+    // Added by Ashok// Added by Ashok// Added by Ashok// Added by Ashok// Added by Ashok// Added by Ashok// Added by Ashok// Added by Ashok// Added by Ashok
     ScaryBugDoc *bug1 = [[ScaryBugDoc alloc] initWithTitle:@"Potato Bug" rating:4 thumbImage:[UIImage imageNamed:@"potBug.png"] fullImage:[UIImage imageNamed:@"potBug.png"]];
     
     NSLog(@"Hello....");
