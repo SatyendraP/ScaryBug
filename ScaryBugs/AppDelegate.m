@@ -20,8 +20,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    // Added by Ashok
+    
     
     ScaryBugDoc *bug1 = [[ScaryBugDoc alloc] initWithTitle:@"Potato Bug" rating:4 thumbImage:[UIImage imageNamed:@"potBug.png"] fullImage:[UIImage imageNamed:@"potBug.png"]];
+    
+    NSLog(@"Hello....");
     ScaryBugDoc *bug2 = [[ScaryBugDoc alloc] initWithTitle:@"House Centipede" rating:3 thumbImage:[UIImage imageNamed:@"HouseCentipede.png" ] fullImage:[UIImage imageNamed:@"HouseCentipede.png"]];
      ScaryBugDoc *bug3 = [[ScaryBugDoc alloc] initWithTitle:@"Wolf Spider" rating:3 thumbImage:[UIImage imageNamed:@"spider.png" ] fullImage:[UIImage imageNamed:@"spider.png"]];
      ScaryBugDoc *bug4 = [[ScaryBugDoc alloc] initWithTitle:@"Lady Bug" rating:3 thumbImage:[UIImage imageNamed:@"LadyBug.png" ] fullImage:[UIImage imageNamed:@"LadyBug.png"]];
